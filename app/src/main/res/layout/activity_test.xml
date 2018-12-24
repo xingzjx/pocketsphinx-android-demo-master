@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_start_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_menu"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="start支持的词汇：digits | forecast | start discovery | what is on tv tonight  | test "/>
+
+    <Button
+        android:id="@+id/btn_start_digists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_digists"
+        />
+
+    <Button
+        android:id="@+id/btn_start_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_hello"
+        />
+
+    <Button
+        android:id="@+id/btn_start_corpus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_corpus"
+        />
+
+    <Button
+        android:id="@+id/btn_start_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start_weather"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        />
+
+    <TextView
+        android:id="@+id/caption_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="sans" />
+
+
+</LinearLayout>

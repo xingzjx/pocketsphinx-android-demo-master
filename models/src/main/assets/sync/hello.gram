@@ -1,0 +1,4 @@
+#JSGF V1.0;
+
+grammar hello;
+public <greet> = (good morning | hello) ( rita | will | tom |xiao ming|ios|android|alexa|world);
